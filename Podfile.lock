@@ -1,0 +1,16 @@
+PODS:
+  - RudderKit (1.0.0)
+
+DEPENDENCIES:
+  - RudderKit (from `.`)
+
+EXTERNAL SOURCES:
+  RudderKit:
+    :path: "."
+
+SPEC CHECKSUMS:
+  RudderKit: 0f86c80f7f8946fff916d2e40960bcf0227dbff5
+
+PODFILE CHECKSUM: 51c96627e995d03aba95b82a8d7433ddfd88aefb
+
+COCOAPODS: 1.12.1
