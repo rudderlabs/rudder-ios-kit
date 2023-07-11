@@ -3,26 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "<package-name>",
+    name: "RudderKit",
     platforms: [
         .iOS(.v9), .tvOS(.v10), .macOS("10.13"), .watchOS("7.0")
     ],
     products: [
         .library(
-            name: "<library-name>",
-            targets: ["<target-name>"]
+            name: "RudderKit",
+            targets: ["RudderKit"]
         )
     ],
     targets: [
         .target(
-            name: "<target-name>",
+            name: "RudderKit",
             path: "Sources",
             sources: ["Classes/"]
-        ),
-        .testTarget(
-            name: "<test-target-name>",
-            dependencies: ["<dependency-name>"],
-            path: "Tests"
         ),
     ]
 )
