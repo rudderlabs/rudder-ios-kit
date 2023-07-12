@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED9225FD2A5E7E7900734372 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9225FC2A5E7E7900734372 /* RepeatingTimer.swift */; };
 		EDA5303B2A5D309E00D58747 /* RudderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA5303A2A5D309E00D58747 /* RudderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDA530432A5D319D00D58747 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA530422A5D319D00D58747 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED9225FC2A5E7E7900734372 /* RepeatingTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTimer.swift; sourceTree = "<group>"; };
 		EDA530372A5D309E00D58747 /* RudderKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RudderKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA5303A2A5D309E00D58747 /* RudderKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RudderKit.h; sourceTree = "<group>"; };
 		EDA530422A5D319D00D58747 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -29,8 +31,8 @@
 		EDA5305A2A5D372D00D58747 /* pull_request_template.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = pull_request_template.md; sourceTree = "<group>"; };
 		EDA5305C2A5D372D00D58747 /* bug_report.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = bug_report.md; sourceTree = "<group>"; };
 		EDA5305D2A5D372D00D58747 /* dependabot.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = dependabot.yml; sourceTree = "<group>"; };
-		EDA5305E2A5D376200D58747 /* RudderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RudderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EDA530602A5D39FB00D58747 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EDA5305E2A5D376200D58747 /* RudderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RudderKit.podspec; sourceTree = "<group>"; };
+		EDA530602A5D39FB00D58747 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				EDA530422A5D319D00D58747 /* Logger.swift */,
+				ED9225FC2A5E7E7900734372 /* RepeatingTimer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA530432A5D319D00D58747 /* Logger.swift in Sources */,
+				ED9225FD2A5E7E7900734372 /* RepeatingTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
