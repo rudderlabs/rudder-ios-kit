@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onButtonTap(_ button: UIButton) {
-        let logger = Logger(logLevel: .debug)
-        logger.logDebug("")
+        Logger.logDebug("Debug")
+        Logger.logError("Error")
     }
 }
 
