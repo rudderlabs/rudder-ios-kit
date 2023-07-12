@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.1.0...v1.1.1) (2023-07-12)
+
+
+### Bug Fixes
+
+* logger ([35ad05d](https://github.com/rudderlabs/rudder-ios-kit/commit/35ad05d741f6366db1f955753f9b88241eec00cf))
+
 ## [1.1.0](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.0.0...v1.1.0) (2023-07-12)
 
 
