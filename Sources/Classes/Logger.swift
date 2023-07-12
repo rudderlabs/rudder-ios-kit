@@ -7,7 +7,7 @@
 
 import Foundation
 
-@frozen @objc public enum LogLevel: Int {
+@frozen public enum LogLevel: Int {
     case verbose = 5
     case debug = 4
     case info = 3
@@ -33,52 +33,26 @@ import Foundation
     }
 }
 
-@objc
-open class Logger: NSObject {
-    let logLevel: LogLevel
+public class Logger {
+    public static var logLevel: LogLevel = .error
     
-    @objc
-    public init(logLevel: LogLevel) {
-        self.logLevel = logLevel
-    }
-    
-    @objc
-    public func logDebug(_ message: String) {
-        rsLog(message: message, logLevel: .debug)
-    }
-    
-    @objc
-    public func logInfo(_ message: String) {
-        rsLog(message: message, logLevel: .info)
-    }
-    
-    @objc
-    public func logError(_ message: String) {
-        rsLog(message: message, logLevel: .error)
-    }
-    
-    @objc
-    public func logWarning(_ message: String) {
-        rsLog(message: message, logLevel: .warning)
-    }
-    
-    public func logDebug(_ message: String, function: String = #function, line: Int = #line) {
+    public static func logDebug(_ message: String, function: String = #function, line: Int = #line) {
         rsLog(message: message, logLevel: .debug, function: function, line: line)
     }
     
-    public func logInfo(_ message: String, function: String = #function, line: Int = #line) {
+    public static func logInfo(_ message: String, function: String = #function, line: Int = #line) {
         rsLog(message: message, logLevel: .info, function: function, line: line)
     }
     
-    public func logWarning(_ message: String, function: String = #function, line: Int = #line) {
+    public static func logWarning(_ message: String, function: String = #function, line: Int = #line) {
         rsLog(message: message, logLevel: .warning, function: function, line: line)
     }
     
-    public func logError(_ message: String, function: String = #function, line: Int = #line) {
+    public static func logError(_ message: String, function: String = #function, line: Int = #line) {
         rsLog(message: message, logLevel: .error, function: function, line: line)
     }
     
-    func rsLog(message: String, logLevel: LogLevel, function: String? = #function, line: Int? = #line) {
+    static func rsLog(message: String, logLevel: LogLevel, function: String? = #function, line: Int? = #line) {
         if self.logLevel == .verbose || self.logLevel == logLevel {
             var metadata = ""
             if let function = function, let line = line {
