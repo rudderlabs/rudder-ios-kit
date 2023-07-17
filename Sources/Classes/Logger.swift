@@ -7,6 +7,7 @@
 
 import Foundation
 
+@objc(RSLogLevel)
 @frozen public enum LogLevel: Int {
     case verbose = 5
     case debug = 4
@@ -60,5 +61,38 @@ public class Logger {
             }
             print("RudderStack:\(logLevel.toString()):\(metadata)\(message)")
         }
+    }
+}
+
+@objc(RSLogger)
+public class ObjCLogger: NSObject {
+    @objc
+    public static var logLevel: LogLevel {
+        set {
+            Logger.logLevel = newValue
+        }
+        get {
+            return Logger.logLevel
+        }
+    }
+    
+    @objc
+    public static func logDebug(_ message: String) {
+        Logger.logDebug(message)
+    }
+    
+    @objc
+    public static func logInfo(_ message: String) {
+        Logger.logInfo(message)
+    }
+    
+    @objc
+    public static func logWarning(_ message: String) {
+        Logger.logWarning(message)
+    }
+    
+    @objc
+    public static func logError(_ message: String) {
+        Logger.logError(message)
     }
 }
