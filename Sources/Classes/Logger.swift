@@ -7,7 +7,7 @@
 
 import Foundation
 
-@objc(RSLogLevel)
+@objc(RudderLogLevel)
 @frozen public enum LogLevel: Int {
     case verbose = 5
     case debug = 4
@@ -64,7 +64,7 @@ public class Logger {
     }
 }
 
-@objc(RSLogger)
+@objc(RudderLogger)
 public class ObjCLogger: NSObject {
     @objc
     public static var logLevel: LogLevel {
