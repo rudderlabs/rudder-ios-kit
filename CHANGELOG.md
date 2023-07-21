@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.2.0...v1.2.1) (2023-07-21)
+
+
+### Bug Fixes
+
+* different class name for ObjC ([378ee41](https://github.com/rudderlabs/rudder-ios-kit/commit/378ee41fffd18e7ef364e1012acd6d680697b650))
+
 ## [1.2.0](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.1.1...v1.2.0) (2023-07-17)
 
 
