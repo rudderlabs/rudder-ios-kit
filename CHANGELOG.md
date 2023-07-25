@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.2.1...v1.3.0) (2023-07-25)
+
+
+### Features
+
+* gzip ([8ae8ce7](https://github.com/rudderlabs/rudder-ios-kit/commit/8ae8ce770991a8741745b904e5dea39a60175ac5))
+
 ### [1.2.1](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.2.0...v1.2.1) (2023-07-21)
 
 
