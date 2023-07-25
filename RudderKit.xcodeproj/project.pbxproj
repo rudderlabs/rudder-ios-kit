@@ -10,6 +10,7 @@
 		ED9225FD2A5E7E7900734372 /* RepeatingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9225FC2A5E7E7900734372 /* RepeatingTimer.swift */; };
 		EDA5303B2A5D309E00D58747 /* RudderKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA5303A2A5D309E00D58747 /* RudderKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDA530432A5D319D00D58747 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA530422A5D319D00D58747 /* Logger.swift */; };
+		EDA5B7732A6FAB1300948D18 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5B7722A6FAB1300948D18 /* Data+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EDA5305D2A5D372D00D58747 /* dependabot.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = dependabot.yml; sourceTree = "<group>"; };
 		EDA5305E2A5D376200D58747 /* RudderKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RudderKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EDA530602A5D39FB00D58747 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EDA5B7722A6FAB1300948D18 /* Data+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		EDA530412A5D311200D58747 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EDA5B7722A6FAB1300948D18 /* Data+Ext.swift */,
 				EDA530422A5D319D00D58747 /* Logger.swift */,
 				ED9225FC2A5E7E7900734372 /* RepeatingTimer.swift */,
 			);
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA5B7732A6FAB1300948D18 /* Data+Ext.swift in Sources */,
 				EDA530432A5D319D00D58747 /* Logger.swift in Sources */,
 				ED9225FD2A5E7E7900734372 /* RepeatingTimer.swift in Sources */,
 			);
