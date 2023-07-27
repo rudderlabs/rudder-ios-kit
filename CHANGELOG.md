@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.4.0 (2023-07-27)
+
+
+### Features
+
+* JSON conversion ([c466d21](https://github.com/rudderlabs/rudder-ios-kit/commit/c466d21ae8eae002e0b23517a5d395fe6328576c))
+
 ## [1.3.0](https://github.com/rudderlabs/rudder-ios-kit/compare/v1.2.1...v1.3.0) (2023-07-25)
 
 
