@@ -34,9 +34,7 @@ jobs:
         run: |
           source_branch_name=${GITHUB_REF##*/}
           release_type=release
-          grep -q "hotfix/" <<< "${GITHUB_REF}" && release_type=hotfix-release
-          git fetch origin master
-          git fetch --tags origin
+          git fetch origin master --depth=1
           git merge origin/master
           current_version=$(jq -r .version package.json)
           
@@ -72,11 +70,11 @@ jobs:
           echo "New version: $NEW_VERSION_VALUE"
           echo ${{ steps.create-release.outputs.new_version }}
           echo "commit_summary=$SUMMARY" >> $GITHUB_OUTPUT
-          npx standard-version -a --skip.tag
+          npx standard-version -a
 
       - name: Push new version in release branch & tag
         run: |
-          git push
+          git push --follow-tags
 
       - name: Create pull request into master
         uses: repo-sync/pull-request@v2
