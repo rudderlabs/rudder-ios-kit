@@ -18,7 +18,7 @@
 
 ---
 
-# \*\*Repo Name\*\*
+# **Rudder-iOS-Kit**
 
 > # ⚠️ Archived Repository
 >
@@ -35,19 +35,9 @@
 >
 > The code remains available in read-only mode for historical reference.
 
-\*\*Repo description\*\*
-
 ## Overview
 
-\*\*Describe what the software does.\*\*
-
-## Features
-
-\*\*Describe the key features, if necessary.\*\*
-
-## Getting started
-
-\*\*Describe how to use the software.\*\*
+The **rudder-ios-kit** is a shared utility library that provides foundational components for RudderStack's iOS SDKs, including logging, GZIP data compression, repeating timers, and JSON conversion utilities.
 
 ## Contribute
 
