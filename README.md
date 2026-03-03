@@ -18,26 +18,24 @@
 
 ---
 
-# \*\*Repo Name\*\*
+# **Rudder-iOS-Kit**
 
-\*\*Repo description\*\*
+> # ⚠️ Archived Repository
+>
+> This repository has been archived and is no longer maintained.
+>
+> `rudder-ios-kit` was originally developed as an internal utility and is no longer part of RudderStack's supported SDK offerings.
+>
+> ## Status
+>
+> - No new features
+> - No bug fixes
+> - No security updates
+> - Issues and pull requests are not monitored
+>
+> The code remains available in read-only mode for historical reference.
 
 ## Overview
 
-\*\*Describe what the software does.\*\*
+The **rudder-ios-kit** is a shared utility library that provides foundational components for RudderStack's iOS SDKs, including logging, GZIP data compression, repeating timers, and JSON conversion utilities.
 
-## Features
-
-\*\*Describe the key features, if necessary.\*\*
-
-## Getting started
-
-\*\*Describe how to use the software.\*\*
-
-## Contribute
-
-We would love to see you contribute to RudderStack. Get more information on how to contribute [**here**](CONTRIBUTING.md).
-
-## License
-
-The RudderStack \*\*software name\*\* is released under the [**MIT License**](https://opensource.org/licenses/MIT).
