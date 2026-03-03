@@ -39,10 +39,3 @@
 
 The **rudder-ios-kit** is a shared utility library that provides foundational components for RudderStack's iOS SDKs, including logging, GZIP data compression, repeating timers, and JSON conversion utilities.
 
-## Contribute
-
-We would love to see you contribute to RudderStack. Get more information on how to contribute [**here**](CONTRIBUTING.md).
-
-## License
-
-The RudderStack \*\*software name\*\* is released under the [**MIT License**](https://opensource.org/licenses/MIT).
